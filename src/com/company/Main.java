@@ -13,13 +13,13 @@ public class Main {
         Scanner year = new Scanner(System.in);
         int phoneYear = year.nextInt();
         if (clientOS == 0 && phoneYear >= 2015) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            System.out.println("Установите версию приложения для iOS по ссылке");
         }else if (clientOS == 1 && phoneYear >= 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            System.out.println("Установите версию приложения для Android по ссылке");
         }else if (clientOS==0 && phoneYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }else if (clientOS==1 && phoneYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            System.out.println("Установите облегченную версию прожения для Android по ссылке");
         }else {
             System.out.println("Что-то пошло не так");
         }
